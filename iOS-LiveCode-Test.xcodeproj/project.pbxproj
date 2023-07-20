@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B06D5672AB1AB84001059C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B06D5662AB1AB84001059C0 /* ContentView.swift */; };
+		2B5218482AAF52C700B5836A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5218472AAF52C700B5836A /* APIService.swift */; };
+		2B52184B2AAF59B600B5836A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B52184A2AAF59B600B5836A /* APIClient.swift */; };
+		2B52184D2AAF5CB600B5836A /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B52184C2AAF5CB600B5836A /* APIRequest.swift */; };
+		2B52184F2AAF5CD000B5836A /* AddressRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B52184E2AAF5CD000B5836A /* AddressRequest.swift */; };
 		2BB70F7F2A6955DE007E625E /* iOS_LiveCode_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB70F7E2A6955DE007E625E /* iOS_LiveCode_TestApp.swift */; };
-		2BB70F812A6955DE007E625E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB70F802A6955DE007E625E /* ContentView.swift */; };
 		2BB70F832A6955DF007E625E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB70F822A6955DF007E625E /* Assets.xcassets */; };
 		2BB70F862A6955DF007E625E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB70F852A6955DF007E625E /* Preview Assets.xcassets */; };
+		2BB70F992A697743007E625E /* iOS_LiveCode_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB70F982A697743007E625E /* iOS_LiveCode_TestTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2BB70F9A2A697743007E625E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB70F732A6955DE007E625E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB70F7A2A6955DE007E625E;
+			remoteInfo = "iOS-LiveCode-Test";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2B06D5662AB1AB84001059C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B5218472AAF52C700B5836A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		2B52184A2AAF59B600B5836A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		2B52184C2AAF5CB600B5836A /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		2B52184E2AAF5CD000B5836A /* AddressRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressRequest.swift; sourceTree = "<group>"; };
 		2BB70F7B2A6955DE007E625E /* iOS-LiveCode-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-LiveCode-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB70F7E2A6955DE007E625E /* iOS_LiveCode_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LiveCode_TestApp.swift; sourceTree = "<group>"; };
-		2BB70F802A6955DE007E625E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BB70F822A6955DF007E625E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BB70F852A6955DF007E625E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BB70F962A697742007E625E /* iOS-LiveCode-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LiveCode-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB70F982A697743007E625E /* iOS_LiveCode_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LiveCode_TestTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +50,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2BB70F932A697742007E625E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5218492AAF52CD00B5836A /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				2B5218472AAF52C700B5836A /* APIService.swift */,
+				2B52184A2AAF59B600B5836A /* APIClient.swift */,
+				2B52184C2AAF5CB600B5836A /* APIRequest.swift */,
+				2B52184E2AAF5CD000B5836A /* AddressRequest.swift */,
+			);
+			path = APIServices;
+			sourceTree = "<group>";
+		};
 		2BB70F722A6955DE007E625E = {
 			isa = PBXGroup;
 			children = (
 				2BB70F7D2A6955DE007E625E /* iOS-LiveCode-Test */,
+				2BB70F972A697743007E625E /* iOS-LiveCode-TestTests */,
 				2BB70F7C2A6955DE007E625E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				2BB70F7B2A6955DE007E625E /* iOS-LiveCode-Test.app */,
+				2BB70F962A697742007E625E /* iOS-LiveCode-TestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,9 +93,10 @@
 			isa = PBXGroup;
 			children = (
 				2BB70F7E2A6955DE007E625E /* iOS_LiveCode_TestApp.swift */,
-				2BB70F802A6955DE007E625E /* ContentView.swift */,
-				2BB70F822A6955DF007E625E /* Assets.xcassets */,
+				2B06D5662AB1AB84001059C0 /* ContentView.swift */,
+				2B5218492AAF52CD00B5836A /* APIServices */,
 				2BB70F842A6955DF007E625E /* Preview Content */,
+				2BB70F822A6955DF007E625E /* Assets.xcassets */,
 			);
 			path = "iOS-LiveCode-Test";
 			sourceTree = "<group>";
@@ -65,6 +107,14 @@
 				2BB70F852A6955DF007E625E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BB70F972A697743007E625E /* iOS-LiveCode-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB70F982A697743007E625E /* iOS_LiveCode_TestTests.swift */,
+			);
+			path = "iOS-LiveCode-TestTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +137,24 @@
 			productReference = 2BB70F7B2A6955DE007E625E /* iOS-LiveCode-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2BB70F952A697742007E625E /* iOS-LiveCode-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB70F9C2A697743007E625E /* Build configuration list for PBXNativeTarget "iOS-LiveCode-TestTests" */;
+			buildPhases = (
+				2BB70F922A697742007E625E /* Sources */,
+				2BB70F932A697742007E625E /* Frameworks */,
+				2BB70F942A697742007E625E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB70F9B2A697743007E625E /* PBXTargetDependency */,
+			);
+			name = "iOS-LiveCode-TestTests";
+			productName = "iOS-LiveCode-TestTests";
+			productReference = 2BB70F962A697742007E625E /* iOS-LiveCode-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +167,10 @@
 				TargetAttributes = {
 					2BB70F7A2A6955DE007E625E = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					2BB70F952A697742007E625E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2BB70F7A2A6955DE007E625E;
 					};
 				};
 			};
@@ -116,6 +188,7 @@
 			projectRoot = "";
 			targets = (
 				2BB70F7A2A6955DE007E625E /* iOS-LiveCode-Test */,
+				2BB70F952A697742007E625E /* iOS-LiveCode-TestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +203,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2BB70F942A697742007E625E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +217,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB70F812A6955DE007E625E /* ContentView.swift in Sources */,
+				2B52184D2AAF5CB600B5836A /* APIRequest.swift in Sources */,
+				2B5218482AAF52C700B5836A /* APIService.swift in Sources */,
+				2B06D5672AB1AB84001059C0 /* ContentView.swift in Sources */,
 				2BB70F7F2A6955DE007E625E /* iOS_LiveCode_TestApp.swift in Sources */,
+				2B52184F2AAF5CD000B5836A /* AddressRequest.swift in Sources */,
+				2B52184B2AAF59B600B5836A /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB70F922A697742007E625E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB70F992A697743007E625E /* iOS_LiveCode_TestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB70F9B2A697743007E625E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB70F7A2A6955DE007E625E /* iOS-LiveCode-Test */;
+			targetProxy = 2BB70F9A2A697743007E625E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2BB70F872A6955DF007E625E /* Debug */ = {
@@ -282,9 +382,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.thirdfort.ios.sandbox.iOS-LiveCode-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,9 +414,54 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.thirdfort.ios.sandbox.iOS-LiveCode-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2BB70F9D2A697743007E625E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A339FV6Q99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.thirdfort.ios.sandbox.iOS-LiveCode-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-LiveCode-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-LiveCode-Test";
+			};
+			name = Debug;
+		};
+		2BB70F9E2A697743007E625E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A339FV6Q99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.thirdfort.ios.sandbox.iOS-LiveCode-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-LiveCode-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-LiveCode-Test";
 			};
 			name = Release;
 		};
@@ -334,6 +482,15 @@
 			buildConfigurations = (
 				2BB70F8A2A6955DF007E625E /* Debug */,
 				2BB70F8B2A6955DF007E625E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB70F9C2A697743007E625E /* Build configuration list for PBXNativeTarget "iOS-LiveCode-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB70F9D2A697743007E625E /* Debug */,
+				2BB70F9E2A697743007E625E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
