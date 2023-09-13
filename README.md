@@ -64,7 +64,7 @@ We want to display a list of addresses from different countries. The contract an
 2. Our client wants us to list and group these addresses into 4 sections: `UK`, `US`, `Canada` and `International` (the rest).
 3. In our UI, address list view should look like this:
 
-   <img src=https://github.com/thirdfort/iOS-LiveCodeTest/assets/2783446/eb650e86-37ac-4dac-b458-f55ddb241536 width=320>
+   <img src=https://github.com/thirdfort/iOS-LiveCodeTest/assets/2783446/cec8a091-10e9-4d86-ad4d-960d628a7bdf width=320>
 
  * (Optional) Show country emoji flag
 4. (Additional Challenge, Optional) Add filter functionality to list addresses for a country.
