@@ -1,0 +1,59 @@
+[
+    {
+        "street": "49 Featherstone Street",
+        "town": "London",
+        "postcode": "EC1Y 8SY",
+        "countryCode": "GBR"
+    },
+    {
+        "flatNumber": "106",
+        "buildingName": "Union Apartments",
+        "street": "50 Arnold Road",
+        "town": "London",
+        "postcode": "E3 4NU",
+        "countryCode": "GBR"
+    },
+    {
+        "flatNumber": "301",
+        "buildingName": "Baycroft Plaza",
+        "street": "Peterborough Road",
+        "town": "Peterborough",
+        "postcode": "PPP 111",
+        "countryCode": "GBR"
+    },
+    {
+        "street": "862 Pheasant Ridge Road",
+        "town": "Jenkintown",
+        "state": "Pennsylvania",
+        "postcode": "19046",
+        "countryCode": "USA"
+    },
+    {
+        "street": "90 White River Way",
+        "town": "Fontana",
+        "state": "California",
+        "postcode": "20 A11H1",
+        "countryCode": "USA"
+    },
+    {
+        "street": "465 René-Lévesque Blvd",
+        "town": "Montreal",
+        "state": "Quebec",
+        "postcode": "H3B 4W8",
+        "countryCode": "CAN"
+    },
+    {
+        "flatNumber": "3987",
+        "street": "3987 Port Washington Road",
+        "town": "Okotoks",
+        "state": "Alberta",
+        "postcode": "D1A 556",
+        "countryCode": "CAN"
+    },
+    {
+        "street": "1 Namara Rd",
+        "town": "Nabua",
+        "state": "Suva",
+        "countryCode": "FJI"
+    }
+]

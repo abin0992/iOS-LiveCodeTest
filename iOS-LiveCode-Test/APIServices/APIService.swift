@@ -3,7 +3,7 @@ import Foundation
 struct EmptyAddress {}
 
 protocol Service {
-    func getAddresses() async throws -> [EmptyAddress]
+    func getAddresses() async throws -> [Address]
 }
 
 final class APIService: Service {
@@ -14,8 +14,7 @@ final class APIService: Service {
         self.client = client
     }
     
-    func getAddresses() async throws -> [EmptyAddress] {
-        return []
+    func getAddresses() async throws -> [Address] {
+        return try await client.execute(request: AddressRequest())
     }
-    
 }

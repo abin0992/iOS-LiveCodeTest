@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16F6AEAB2B6199DA00F1CC02 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6AEAA2B6199DA00F1CC02 /* Address.swift */; };
+		16F6AEAE2B619AA300F1CC02 /* AddressListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6AEAD2B619AA300F1CC02 /* AddressListViewModel.swift */; };
+		16F6AEB02B619E4A00F1CC02 /* AddressValidatorUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6AEAF2B619E4A00F1CC02 /* AddressValidatorUseCase.swift */; };
+		16F6AEB22B61A64B00F1CC02 /* AddressValidatorUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6AEB12B61A64B00F1CC02 /* AddressValidatorUseCaseTests.swift */; };
+		16F6AEBC2B625C8C00F1CC02 /* FetchAddressUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6AEBB2B625C8C00F1CC02 /* FetchAddressUseCase.swift */; };
+		16F6AEBE2B625E4400F1CC02 /* FetchAddressesUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6AEBD2B625E4400F1CC02 /* FetchAddressesUseCaseTests.swift */; };
+		16F6AEC12B625E5B00F1CC02 /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = 16F6AEC02B625E5B00F1CC02 /* address.json */; };
+		16F6AEC42B625E6C00F1CC02 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6AEC32B625E6C00F1CC02 /* MockAPIService.swift */; };
+		16F6AEC62B625EBA00F1CC02 /* TestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6AEC52B625EBA00F1CC02 /* TestUtilities.swift */; };
 		2B06D5672AB1AB84001059C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B06D5662AB1AB84001059C0 /* ContentView.swift */; };
 		2B5218482AAF52C700B5836A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5218472AAF52C700B5836A /* APIService.swift */; };
 		2B52184B2AAF59B600B5836A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B52184A2AAF59B600B5836A /* APIClient.swift */; };
@@ -15,7 +24,6 @@
 		2BB70F7F2A6955DE007E625E /* iOS_LiveCode_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB70F7E2A6955DE007E625E /* iOS_LiveCode_TestApp.swift */; };
 		2BB70F832A6955DF007E625E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB70F822A6955DF007E625E /* Assets.xcassets */; };
 		2BB70F862A6955DF007E625E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB70F852A6955DF007E625E /* Preview Assets.xcassets */; };
-		2BB70F992A697743007E625E /* iOS_LiveCode_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB70F982A697743007E625E /* iOS_LiveCode_TestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16F6AEAA2B6199DA00F1CC02 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		16F6AEAD2B619AA300F1CC02 /* AddressListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListViewModel.swift; sourceTree = "<group>"; };
+		16F6AEAF2B619E4A00F1CC02 /* AddressValidatorUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressValidatorUseCase.swift; sourceTree = "<group>"; };
+		16F6AEB12B61A64B00F1CC02 /* AddressValidatorUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressValidatorUseCaseTests.swift; sourceTree = "<group>"; };
+		16F6AEBB2B625C8C00F1CC02 /* FetchAddressUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAddressUseCase.swift; sourceTree = "<group>"; };
+		16F6AEBD2B625E4400F1CC02 /* FetchAddressesUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAddressesUseCaseTests.swift; sourceTree = "<group>"; };
+		16F6AEC02B625E5B00F1CC02 /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
+		16F6AEC32B625E6C00F1CC02 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		16F6AEC52B625EBA00F1CC02 /* TestUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtilities.swift; sourceTree = "<group>"; };
 		2B06D5662AB1AB84001059C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B5218472AAF52C700B5836A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		2B52184A2AAF59B600B5836A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -39,7 +56,6 @@
 		2BB70F822A6955DF007E625E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BB70F852A6955DF007E625E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BB70F962A697742007E625E /* iOS-LiveCode-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LiveCode-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BB70F982A697743007E625E /* iOS_LiveCode_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LiveCode_TestTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16F6AEA92B6199C900F1CC02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16F6AEAA2B6199DA00F1CC02 /* Address.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16F6AEAC2B619A9000F1CC02 /* AddressList */ = {
+			isa = PBXGroup;
+			children = (
+				16F6AEAD2B619AA300F1CC02 /* AddressListViewModel.swift */,
+				16F6AEAF2B619E4A00F1CC02 /* AddressValidatorUseCase.swift */,
+				16F6AEBB2B625C8C00F1CC02 /* FetchAddressUseCase.swift */,
+			);
+			path = AddressList;
+			sourceTree = "<group>";
+		};
+		16F6AEBF2B625E4F00F1CC02 /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				16F6AEC02B625E5B00F1CC02 /* address.json */,
+			);
+			path = Stub;
+			sourceTree = "<group>";
+		};
+		16F6AEC22B625E5E00F1CC02 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				16F6AEC32B625E6C00F1CC02 /* MockAPIService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		2B5218492AAF52CD00B5836A /* APIServices */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +142,8 @@
 		2BB70F7D2A6955DE007E625E /* iOS-LiveCode-Test */ = {
 			isa = PBXGroup;
 			children = (
+				16F6AEAC2B619A9000F1CC02 /* AddressList */,
+				16F6AEA92B6199C900F1CC02 /* Model */,
 				2BB70F7E2A6955DE007E625E /* iOS_LiveCode_TestApp.swift */,
 				2B06D5662AB1AB84001059C0 /* ContentView.swift */,
 				2B5218492AAF52CD00B5836A /* APIServices */,
@@ -112,7 +164,11 @@
 		2BB70F972A697743007E625E /* iOS-LiveCode-TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				2BB70F982A697743007E625E /* iOS_LiveCode_TestTests.swift */,
+				16F6AEC52B625EBA00F1CC02 /* TestUtilities.swift */,
+				16F6AEC22B625E5E00F1CC02 /* Mock */,
+				16F6AEBF2B625E4F00F1CC02 /* Stub */,
+				16F6AEB12B61A64B00F1CC02 /* AddressValidatorUseCaseTests.swift */,
+				16F6AEBD2B625E4400F1CC02 /* FetchAddressesUseCaseTests.swift */,
 			);
 			path = "iOS-LiveCode-TestTests";
 			sourceTree = "<group>";
@@ -207,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F6AEC12B625E5B00F1CC02 /* address.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,9 +277,13 @@
 				2B52184D2AAF5CB600B5836A /* APIRequest.swift in Sources */,
 				2B5218482AAF52C700B5836A /* APIService.swift in Sources */,
 				2B06D5672AB1AB84001059C0 /* ContentView.swift in Sources */,
+				16F6AEAE2B619AA300F1CC02 /* AddressListViewModel.swift in Sources */,
 				2BB70F7F2A6955DE007E625E /* iOS_LiveCode_TestApp.swift in Sources */,
+				16F6AEBC2B625C8C00F1CC02 /* FetchAddressUseCase.swift in Sources */,
+				16F6AEB02B619E4A00F1CC02 /* AddressValidatorUseCase.swift in Sources */,
 				2B52184F2AAF5CD000B5836A /* AddressRequest.swift in Sources */,
 				2B52184B2AAF59B600B5836A /* APIClient.swift in Sources */,
+				16F6AEAB2B6199DA00F1CC02 /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB70F992A697743007E625E /* iOS_LiveCode_TestTests.swift in Sources */,
+				16F6AEC42B625E6C00F1CC02 /* MockAPIService.swift in Sources */,
+				16F6AEBE2B625E4400F1CC02 /* FetchAddressesUseCaseTests.swift in Sources */,
+				16F6AEC62B625EBA00F1CC02 /* TestUtilities.swift in Sources */,
+				16F6AEB22B61A64B00F1CC02 /* AddressValidatorUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
